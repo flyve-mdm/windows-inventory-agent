@@ -7,7 +7,7 @@
         <div class="navbar-global theme-default">
             <div class="container">
                 <div class="navbar-header">
-                    <a href="{{ site.url }}{{ site.baseurl }}" class="navbar-brand">
+                    <a href="{{ site.url }}{{ site.baseurl }}/" class="navbar-brand">
                         <img src="{{ 'images/typo.png' | relative_url }}"  height="23" alt="Flyve MDM" />
                     </a>
                 </div>
@@ -45,19 +45,25 @@
                             <a class="color-type-secondary" href="{{ '/products' | relative_url }}">Projects</a>
                         </li>
 
-                        {% for page in site.pages %}
-                            {% if page.title == 'changelog' %}
+                        {% if page.title != 404 %}
+                            {% for page in site.pages %}
+                                {% if page.title == 'changelog' %}
 
-                            <li>
-                                <a type="button" class="color-type-secondary" data-toggle="modal" data-target="#myModal" href="#" >
-                                    {{ page.title }}
-                                </a>
-                            </li>
-                            
-                            {% assign changelog = page %}
+                                <li>
+                                    <a type="button" class="color-type-secondary" data-toggle="modal" data-target="#myModal" href="#" >
+                                        {{ page.title | capitalize }}
+                                    </a>
+                                </li>
+                                
+                                {% assign changelog = page %}
 
-                            {% endif %}
-                        {% endfor %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
+                        
+                        <li>
+                            <a class="color-type-secondary" href="{{ '/contact' | relative_url }}">Contact</a>
+                        </li>
                         
                     </ul>
                 </div>
