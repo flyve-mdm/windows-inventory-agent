@@ -1,9 +1,24 @@
 ---
 ---
 
-self.addEventListener('install', function(e) {
+self.addEventListener('install', function(e) { 
+  
+  {% assign name = site.github.project_title | replace: "flyve-mdm-", "" %} 
+  
+  var CACHE_NAME = '{{name}}-version-1'
+
+  caches.keys().then(function(cacheNames) {
+    return Promise.all(
+      cacheNames.map(function(cacheName) {
+        if(cacheName != CACHE_NAME) {
+          return caches.delete(cacheName)
+        }
+      })
+    )
+  })
+
   e.waitUntil(
-    caches.open('airhorner').then(function(cache) {
+    caches.open(CACHE_NAME).then(function(cache) {
       return cache.addAll([
         '{{ site.baseurl }}/',
         '{{ site.baseurl }}/?homescreen=1',
