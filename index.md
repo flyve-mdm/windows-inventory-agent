@@ -10,24 +10,24 @@ TBF
 
 | **Release channel** | **Beta channel** |
 |:---:|:---:|
-| [![Build Status](https://travis-ci.org/flyve-mdm/flyve-mdm-windows-inventory-agent.svg?branch=master)](https://travis-ci.org/flyve-mdm/flyve-mdm-windows-inventory-agent) | [![Build Status](https://travis-ci.org/flyve-mdm/flyve-mdm-windows-inventory-agent.svg?branch=develop)](https://travis-ci.org/flyve-mdm/flyve-mdm-windows-inventory-agent) |
+| [![Build Status](https://travis-ci.org/flyve-mdm/windows-agent-inventory.svg?branch=master)](https://travis-ci.org/flyve-mdm/windows-agent-inventory) | [![Build Status](https://travis-ci.org/flyve-mdm/windows-agent-inventory.svg?branch=develop)](https://travis-ci.org/flyve-mdm/windows-agent-inventory) |
 
 ## Installation
 
 ## Documentation
 
-We share long-form content about the project in the [wiki](https://github.com/flyve-mdm/flyve-mdm-windows-inventory-agent/wiki).
+We share long-form content about the project in the [wiki](https://github.com/flyve-mdm/windows-agent-inventory/wiki).
 
 ## Versioning
 
 In order to provide transparency on our release cycle and to maintain backward compatibility, Flyve MDM is maintained under [the Semantic Versioning guidelines](http://semver.org/). We are committed to following and complying with the rules, the best we can.
 
-See [the tags section of our GitHub project](http://github.com/flyve-mdm/flyve-mdm-windows-inventory-agent/tags) for changelogs for each release version of Flyve MDM. Release announcement posts on [the official Teclib' blog](http://www.teclib-edition.com/en/communities/blog-posts/) contain summaries of the most noteworthy changes made in each release.
+See [the tags section of our GitHub project](http://github.com/flyve-mdm/windows-agent-inventory/tags) for changelogs for each release version of Flyve MDM. Release announcement posts on [the official Teclib' blog](http://www.teclib-edition.com/en/communities/blog-posts/) contain summaries of the most noteworthy changes made in each release.
 
 ## Contribute
 
 Want to file a bug, contribute some code, or improve documentation? Excellent! Read up on our
-guidelines for contributing and then check out one of our issues in the [Issues Dashboard](https://github.com/flyve-mdm/flyve-mdm-windows-inventory-agent/issues).
+guidelines for contributing and then check out one of our issues in the [Issues Dashboard](https://github.com/flyve-mdm/windows-agent-inventory/issues).
 
 ## Contact
 
