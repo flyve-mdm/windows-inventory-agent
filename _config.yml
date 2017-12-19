@@ -1,9 +1,9 @@
 title: windows agent inventory
 email: ml-flyvemdm@teclib.com
 twitter: flyvemdm
-baseurl: "/windows-agent-inventory"
+baseurl: "/windows-inventory-agent"
 url: "http://flyve.org"   
-image: http://flyve.org/windows-agent-inventory/images/logo2.png
+image: http://flyve.org/windows-inventory-agent/images/logo2.png
 
 # Build settings
 markdown: kramdown
@@ -13,7 +13,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-repository: flyve-mdm/windows-agent-inventory
+repository: flyve-mdm/windows-inventory-agent
 
 sass:
     style: compressed
