@@ -5,6 +5,8 @@ published: true
 title: How it works
 permalink: howtos/how-it-works
 description: A brief introduction
+category: user
+date: 2017-12-26
 ---
 The Inventory Agent will scan your device and gather all the hardware and software data of your device, such as memory, networks, battery, etc., in a beautiful XML file. The inventory can be send to:
 
