@@ -5,6 +5,7 @@ published: true
 title: Getting Started
 permalink: howtos/getting-started
 description: Welcome to Flyve MDM
+category: user
 ---
 The Windows Inventory Agent features a complete inventory of your Windows devices where both hardware and software information is collected.
 
